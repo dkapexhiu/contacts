@@ -1,0 +1,40 @@
+/* Basic */
+#add,#show,#exit {
+    cursor:pointer;
+}
+#display{
+    border-top:solid 2px #DDD;
+}
+
+label{
+    display:block;
+    margin-top:10px;
+}
+input{
+    display:block;
+}
+button{
+    margin:30px 3px 0 0;
+}
+
+/* Optional */
+label {
+    font-size:1em;
+    color:#CCC;
+    font-weight:bold;
+}
+input {
+    border:none;
+    border-bottom:1px solid #890;
+    padding:10px 0;
+}
+button {
+    padding:8px 20px;
+    border:none;
+    background: linear-gradient(to bottom, #890, #370);
+    color:#FFF;
+}
+a{
+    display:block;
+    margin:30px;
+}
